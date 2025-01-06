@@ -1,0 +1,144 @@
+{
+  "header": {
+    "home": "Anasayfa",
+    "lookbooks": "Ürünler",
+    "portfolio": "Portföy",
+    "services": "Hizmetler",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "systems": "Sistemler",
+    "areas": "Alanlar",
+    "buildings": "Binalar",
+    "systemDetail": "Sistem Detayı",
+    "allSystems": "Tüm Sistemler",
+    "allAreas": "Tüm Alanlar",
+
+    "company": "Company",
+    "usefulLinks": "Useful Links",
+    "privacyStatement": "Privacy Statement",
+    "termsOfUse": "Terms of Use",
+    "cookieNotice": "Cookie Notice",
+    "clarificationText": "Clarification Text"
+  },
+  "admin": {
+    "status": "Durum",
+    "Head1": "Yönetim İletişim",
+    "Pending": "Beklemede",
+    "Working": "Başlatıldı",
+    "Done": "Tamamlandı",
+    "Spam": "Spam",
+    "Important": "Önemli"
+  },
+  "homePage": {
+    "contactAlert": "Ayrıcalıklı Konfor Deneyimi",
+    "contactText": "Size Özel Benzersiz Tasarıma Sahip Olmak İçin İletişime geçebilirsiniz.",
+    "contactHeader": "Mimarlık Ofisi",
+    "contactHeader2": "Trend tasarımlar için formu doldurun",
+    "nameSurname": "Adınız Soyadınız",
+    "mail": "E-Posta",
+    "phone": "Telefon",
+    "date": "Tarih",
+    "phonePlaceholder": "5XX XXX XX XX",
+    "message": "Mesajınız",
+    "contactSubmit": "Bilgilerimi Gönder",
+    "contactSuccess": "Mesajınız başarıyla gönderildi. En kısa sürede size dönüş yapacağız.",
+    "contactError": "Mesajınız gönderilirken bir hata oluştu. Lütfen daha sonra tekrar deneyin.",
+    "fetureMarkSuccess": "Özellikle seçtiğiniz ürün başarıyla işaretlendi.",
+    "fetureMarkError": "Ürün işaretlenirken bir hata oluştu. Lütfen daha sonra tekrar deneyin.",
+
+    "preferenceH1": "Bizi Neden Tercih Etmelisiniz",
+    "preferenceH2": "Biz, mekanları hayal gücü ve işlevselliği bir araya getirerek yaşam alanlarınıza özgün bir dokunuş katıyoruz",
+
+    "preferencePH1": "Yaratıcı Yaklaşım",
+    "preferencePC1": "İç mimarlık, estetik ve fonksiyonelliği bir araya getiren bir sanattır. Sizin ofisinizin yaratıcı yaklaşımı, mekanları sadece güzel değil aynı zamanda kullanışlı ve işlevsel hale getirme konusundaki yeteneklerinizi yansıtır. Müşterileriniz, bu yaratıcılığı takdir edecektir.",
+
+    "preferencePH2": "Malzeme ve Renk Bilgisi",
+    "preferencePC2": "İç mekan tasarımında malzeme seçimi ve renk uyumu büyük önem taşır. Sizin ofisiniz, bu konuda bilgi sahibi ve güncel trendleri takip eden bir ekip olarak müşterilere rehberlik edebilir.",
+
+    "preferencePH3": "Deneyim ve Uzmanlık",
+    "preferencePC3": "İç mekan tasarımı karmaşık bir süreçtir ve uzmanlık gerektirir. Sizin ofisinizde çalışan iç mimarlar, bu alanda deneyimli ve eğitimli kişilerdir. Müşteriler, profesyonel bir ekiple çalışmanın değerini bilirler.",
+
+    "preferencePH4": "Proje Yönetimi Becerileri",
+    "preferencePC4": "İç mimarlık projeleri, bütçe, zaman ve kaynak yönetimi gerektirir. Sizin ofisiniz, projeleri başarılı bir şekilde yönetme yeteneğine sahip olduğunu kanıtlamıştır.",
+
+    "preferencePH5": "Müşteri İhtiyaçlarına Odaklanma",
+    "preferencePC5": "İyi bir iç mimarlık ofisi, müşterilerinin ihtiyaçlarını anlamak ve onların beklentilerini karşılamak için çaba gösterir. Sizin ofisiniz, müşteri odaklı bir yaklaşım benimseyerek, onların isteklerini ve zevklerini ön planda tutar.",
+
+    "preferencePH6": "Referanslar ve Portföy",
+    "preferencePC6": "Müşteriler, daha önce tamamladığınız projeleri görmek ve referanslarınızı incelemek isterler. Sizin ofisinizin portföyü ve müşteri geri bildirimleri, potansiyel müşteriler için güven oluşturur.",
+
+    "preferencePB1": "Bizi yakından tanıyın",
+    "preferencePB2": "Hemen Teklif Al",
+
+    "systemTitle": "Tasarım ve Uygulamalarımız",
+    "systemTitle2": "Estetikle işlevi bir araya getiriyoruz. Mekanlarınızı özgün tasarımlarla hayata geçiriyoruz.",
+
+    "referances": "Referanslarımız"
+  },
+  "NotFoundPage": {
+    "message": "Sayfa bulunamadı",
+    "content": "Aradığınız sayfa silinmiş olabilir, adı değiştirilmiş olabilir veya geçici olarak kullanılamayabilir.",
+    "back": "Ana sayfaya dön",
+
+    "maintenance": "Bakımda!",
+    "outOfService": "Bu sayfa bakımda!",
+    "outOfServiceContent": "Aradığınız sayfa şu anda hizmet dışıdır. Lütfen daha sonra tekrar deneyin."
+  },
+  "AboutUs": {
+    "WWA": "Biz Kimiz?",
+    "WWAContent": "Cofiwo, tedarik zinciri yönetimi, üstyapı işleri ve proje yönetimi konularında özel hizmetler sunan yeni nesil bir inşaat ve teknoloji şirketidir. Şirket, İnşaat Yönetim Teknolojileri konusunda projeler geliştirerek sektörü ileriye taşımayı görev edinmiştir. Ar-Ge'ye yaptığı yatırımlarla yenilikçi çözümler üreten Cofiwo, hizmet verdiği tüm ülkelerde odak noktası olmaya devam etmektedir.",
+
+    "OurMission": "Misyonumuz",
+    "OurMissionContent1": "İş yaklaşımımızda müşteri odaklı olmayı ve müşterilerimizin vizyonunu ön planda tutmayı tercih ediyoruz.",
+    "OurMissionContent2": "Biz açık fikirlilik, coşku, çalışkanlık ve sosyal bilinçten oluşan bir ekibiz.",
+    "OurMissionContent3": "Tedarik zincirinin döngüselliğini sağlamak için yüksek teknolojiyi entegre ediyoruz.",
+    "OurMissionContent4": "Sürekli olarak profesyonel ve yüksek kaliteli işler sunuyoruz.",
+
+    "OurVision": "Vizyonumuz",
+    "OVContent1": "İnşaatta yeni nesil mükemmellik standartlarını belirlemek.",
+
+    "ourValues": "Değerlerimiz",
+    "Sustainability": "Sürdürülebilirlik",
+    "SustainabilityContent": "Yüksek teknoloji entegrasyonuyla karbon emisyonlarını en aza indirmeyi ve yeşil projelere yatırım yapmayı hedefliyoruz.",
+
+    "SocialResponsibility": "Sosyal Sorumluluk",
+    "SocialResponsibilityContent": "Hayırsever olmaya ve herkese karşı elimizden gelen nezaket ve iyi niyeti göstermeye kararlıyız.",
+
+    "Respect": "Saygı",
+    "RespectContent": "Her sesin değerli olduğuna inanıyor ve farklılıklara saygı duyuyoruz.",
+
+    "Education": "Eğitim",
+    "EducationContent": "Teknik ve entelektüel bilgiyi güçlendirmek için kaynak ayırıyor ve eşitlik yaratmak için projeler geliştiriyoruz."
+  },
+  "systems": {
+    "content": "Hem iç hem de dış mekanlar için kapsamlı çözüm yelpazemiz, tüm ihtiyaçlarınızı karşılamak için titizlikle tasarlanmıştır. Estetik ve işlevselliği bir araya getiren çözümlerimiz, modern ve pratik uygulamalarla mekanlarınıza değer katar. Her sistem, kendi özel uygulama alanına göre uyarlanmış üstün özellikleriyle öne çıkar ve uzun ömürlü performans sağlar.",
+    "details": "Detaylar",
+    "loading": "Yükleniyor...",
+    "showMore": "Daha Fazla Göster",
+    "notFound": "Henüz hiçbir sistem eklenmedi!",
+    "removeFilter": "Filtreyi Kaldır",
+    "removeAllFilters": "Tüm Filtreleri Kaldır",
+
+    "addNewSystem": "Yeni Sistem Ekle"
+  },
+  "areas": {
+    "content": "Hem iç hem de dış mekanlara yönelik çözümlerimiz, her ayrıntıda özenle hazırlanmış tasarım unsurlarıyla ortamlarınıza derinlik kazandırır. Modern yaklaşımlarla güncellenen bu uygulamalar, her alanın kendine özgü kimliğini vurgulayan uyumlu bir estetik yaratır. Sürdürülebilirlik ve dayanıklılığı merkeze alan tasarımlarımız, mekanlarınız için kalıcı bir güzellik sunuyor.",
+    "addNewArea": "Yeni Alan Ekle"
+  },
+  "areasDetail": {
+    "overview": "Genel Bakış",
+    "3dScene": "3D Sahne",
+    "fullScreen": "Tam Ekran",
+    "virtualReality": "Sanal Gerçeklik",
+    "relatedSystems": "İlgili Sistemler",
+    "noRelatedSystems": "İlgili sistem bulunamadı!",
+    "relatedProducts": "İlgili Ürünler",
+    "noRelatedProducts": "İlgili ürün bulunamadı!",
+    "getaQuotation": "Teklif Al",
+    "getaQuotationContent": "Tasarım sürecinize yardımcı olmak için sistemlerimiz ve ürünlerimiz için bir kütüphane hazırladık.",
+    "brochure": "Broşür",
+    "noVirtualReality": "Sanal gerçeklik bulunamadı!",
+    "no3dScene": "3D sahne bulunamadı!"
+  }
+}
+  

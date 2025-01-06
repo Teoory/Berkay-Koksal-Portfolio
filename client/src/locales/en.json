@@ -1,0 +1,146 @@
+{
+  "header": {
+    "home": "Home",
+    "lookbooks": "Lookbooks",
+    "portfolio": "Portfolio",
+    "services": "Services",
+    "about": "About Us",
+    "contact": "Contact Us",
+    "systems": "Systems",
+    "areas": "Areas",
+    "buildings": "Buildings",
+    "systemDetail": "System Detail",
+    "allSystems": "All Systems",
+    "allAreas": "All Areas",
+
+    "company": "Company",
+    "usefulLinks": "Useful Links",
+    "privacyStatement": "Privacy Statement",
+    "termsOfUse": "Terms of Use",
+    "cookieNotice": "Cookie Notice",
+    "clarificationText": "Clarification Text"
+  },
+  "admin": {
+    "status": "Status",
+    "Head1": "Admin Contact",
+    "Pending": "Pending",
+    "Working": "Working",
+    "Done": "Done",
+    "Spam": "Spam",
+    "Important": "Important"
+  },
+  "homePage": {
+    "contactAlert": "Privileged Comfort Experience",
+    "contactText": "You can contact us to have a unique design tailored to you.",
+    "contactHeader": "Design Office",
+    "contactHeader2": "Fill out the form for trendy designs",
+    "nameSurname": "Name Surname",
+    "mail": "E-Mail",
+    "phone": "Phone",
+    "date": "Date",
+    "phonePlaceholder": "5XX XXX XX XX",
+    "message": "Message",
+    "contactSubmit": "Send My Information",
+    "contactSuccess": "Your message has been successfully sent. We will get back to you as soon as possible.",
+    "contactError": "An error occurred while sending your message. Please try again later.",
+    "fetureMarkSuccess": "The product you selected has been successfully marked.",
+    "fetureMarkError": "An error occurred while marking the product. Please try again later.",
+
+    "preferenceH1": "Why You Should Choose Us",
+    "preferenceH2": "We add a unique touch to your living spaces by combining imagination and functionality",
+    
+    "preferencePH1": "Creative Approach",
+    "preferencePC1": "Interior design is an art that combines aesthetics and functionality. Your office's creative approach reflects your ability to make spaces not only beautiful but also practical and functional. Your clients will appreciate this creativity.",
+
+    "preferencePH2": "Material and Color Knowledge",
+    "preferencePC2": "Material selection and color harmony are of great importance in interior design. Your office, as a team knowledgeable in this area and following current trends, can guide clients.",
+
+    "preferencePH3": "Experience and Expertise",
+    "preferencePC3": "Interior design is a complex process that requires expertise. The interior designers working in your office are experienced and educated in this field. Clients understand the value of working with a professional team.",
+
+    "preferencePH4": "Project Management Skills",
+    "preferencePC4": "Interior design projects require budget, time, and resource management. Your office has proven its ability to successfully manage projects.",
+
+    "preferencePH5": "Focus on Customer Needs",
+    "preferencePC5": "A good interior design office strives to understand the needs of its clients and meet their expectations. Your office adopts a customer-oriented approach, prioritizing their desires and tastes.",
+
+    "preferencePH6": "References and Portfolio",
+    "preferencePC6": "Clients want to see the projects you have completed before and review your references. Your office's portfolio and customer feedback build trust for potential clients.",
+
+    "preferencePB1": "Get to Know Us Closely",
+    "preferencePB2": "Get a Quote Now",
+
+    "systemTitle": "Our Designs and Applications",
+    "systemTitle2": "We combine aesthetics with functionality. We bring your spaces to life with unique designs.",
+
+    "referances": "References"
+  },
+  "NotFoundPage": {
+    "message": "Page not found",
+    "content": "The page you are looking for might have been removed had its name changed or is temporarily unavailable.",
+    "back": "Back to home",
+
+    "maintenance": "Maintenance!",
+    "outOfService": "This page is in maintenance!",
+    "outOfServiceContent": "The page you are looking for is currently out of service. Please try again later."
+  },
+  "AboutUs": {
+    "WWA": "Who We Are?",
+    "WWAContent": "Cofiwo is a new generation construction and technology company providing custom services in supply chain management, superstructure works and project management. The company is committed to advancing the sector by developing projects in Construction Management Technologies. Cofiwo, which produces innovative solutions with investments in R&D, continues to become a focal point in all the countries it serves.",
+
+    "OurMission": "Our Mission",
+    "OurMissionContent1": "In our business approach, we prefer to be customer-oriented and to prioritize the clients' vision.",
+    "OurMissionContent2": "We are a team of open-mindedness, enthusiasm, hard work, and social consciousness.",
+    "OurMissionContent3": "We integrate high technology to ensure circularity of the supply chain.",
+    "OurMissionContent4": "We consistently deliver professional and high-quality work.",
+
+    "OurVision": "Our Vision",
+    "OVContent1": "To set new generation standards of excellence in construction.",
+
+    "ourValues": "Our Values",
+    "Sustainability": "Sustainability",
+    "SustainabilityContent": "We aim to minimize carbon emissions through high-tech integration and invest in green projects.",
+
+    "SocialResponsibility": "Social Responsibility",
+    "SocialResponsibilityContent": "We are committed to being charitable and demonstrating our best kindness and goodwill towards all.",
+
+    "Respect": "Respect",
+    "RespectContent": "We believe every voice is valued and respect differences.",
+
+    "Education": "Education",
+    "EducationContent": "We allocate resources to empower technical and intellectual knowledge and develop projects to create equity."
+  },
+  "systems": {
+    "content": "Our comprehensive range of solutions for both interior and exterior spaces is meticulously designed to meet all your needs. Combining aesthetics and functionality, our solutions add value to your spaces with modern and practical applications. Each system stands out with superior features tailored to its specific application area, ensuring long-lasting performance.",
+    "detail": "Detail",
+    "loading": "Loading...",
+    "showMore": "Show More",
+    "notFound": "No system has been added yet!",
+    "type": "Type",
+    "group": "Group",
+    "grid": "Grid",
+    "removeFilter": "Remove Filter",
+    "removeAllFilters": "Remove All Filters",
+
+    "addNewSystem": "Add New System"
+  },
+  "areas": {
+    "content": "Our solutions for both interior and exterior spaces bring depth to your environments, with thoughtfully crafted design elements in every detail. Updated with modern approaches, these applications create a cohesive aesthetic that highlights the unique identity of each space. Centered around sustainability and durability, our designs offer lasting beauty for your spaces.",
+    "addNewArea": "Add New Area"
+  },
+  "areasDetail": {
+    "overview": "Overview",
+    "3dScene": "3D Scene",
+    "fullScreen": "Full Screen",
+    "virtualReality": "Virtual Reality",
+    "relatedSystems": "Related Systems",
+    "noRelatedSystems": "No related systems have been added yet!",
+    "relatedProducts": "Related Products",
+    "noRelatedProducts": "No related products have been added yet!",
+    "getaQuotation": "Get a Quotation",
+    "getaQuotationContent": "We've prepared a library for our systems and products to help you with the design process.",
+    "brochure": "Brochure",
+    "noVirtualReality": "No virtual reality has been added yet!",
+    "no3dScene": "No 3D scene has been added yet!"
+  }
+}  

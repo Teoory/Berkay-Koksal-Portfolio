@@ -1,0 +1,324 @@
+.loading-screen {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+  font-family: "Fira Code", monospace;
+  overflow: hidden;
+}
+
+.vscode {
+  display: flex;
+}
+
+.Loading-left {
+  flex-basis: 15%;
+  background-color: #333333;
+  padding: 10px;
+  border-right: 2px solid #252526;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.sidebar {
+  flex-basis: 15%;
+  height: 100%;
+  background-color: #252526;
+  padding: 10px;
+  border-right: 2px solid #333333;
+}
+
+.file-item {
+  padding: 5px 10px;
+  border-radius: 3px;
+  margin-bottom: 5px;
+  background-color: #2d2d2d;
+  color: #9cdcfe;
+  cursor: pointer;
+  padding-left: 16px;
+}
+
+.file-item.folder {
+  font-weight: bold;
+  padding-left: 16px;
+  margin-top: 12px;
+  border-left: 3px solid #4682b4;
+}
+
+.file-name {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  gap: 5px;    
+}
+
+.file-name svg {
+  width: 10px;
+  height: 10px;
+}
+
+.sub-items {
+  margin-left: 15px;
+  margin-top: 4px;
+}
+
+.sub-items .file-item {
+  background-color: #2d2d2d;
+  margin-bottom: 3px;
+  padding: 5px 10px;
+}
+
+.active {
+  background-color: #82888f !important;
+  /* background-color: #3a3d41 !important; */
+}
+
+.Loading-right {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 85%;
+}
+
+.code-area {
+  flex-basis: 80%;
+  padding: 20px;
+  overflow-y: auto;
+  background-color: #1e1e1e;
+  height: 70%;
+}
+
+.code-line {
+  font-size: 14px;
+  margin: 0;
+  white-space: pre-wrap;
+  color: #dcdcaa;
+}
+
+.consoles {
+  font-family: "Courier New", monospace;
+  display: flex;
+  flex-basis: 20%;
+  width: 100%;
+  border-top: 1px solid #151515;
+  font-size: 14px;
+  white-space: pre-wrap;
+  height: 30%;
+}
+
+.divider {
+  height: 2px;
+  background-color: #151515;
+}
+
+.console {
+  flex-basis: 40%;
+  background-color: #363537;
+  border-right: 1px solid #151515;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 100%;
+}
+
+.console2 {
+  flex-basis: 40%;
+  background-color: #363537;
+  border-right: 1px solid #151515;
+  padding: 10px 20px;
+  height: 100%;
+}
+
+.console .low-width-content::before {
+  content: "PS C:\\Users\\Berkay\\Dev\\Primary\\Portfolio\\api";
+}
+
+.console-line {
+  font-size: 14px;
+  margin: 0 ;
+}
+
+.console-selec-area {
+  border-left: 1px solid #151515;
+  flex-basis: 15%;
+  background-color: #363537;
+  padding: 10px 20px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 100%;
+}
+
+.console-text {
+  font-weight: bold;
+  color: #00e676;
+  animation: blink 1s steps(5, start) infinite;
+}
+
+.terminal-text {
+  display: flex;
+  color: #d4d4d4;
+  gap: 5px;
+}
+
+.terminal-text:first-child {
+  color: #fce566;
+}
+
+.terminal-text:first-child::before {
+  content: "⌜";
+}
+
+.terminal-text:last-child::before {
+  content: "⌞";
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0.5;
+  }
+}
+
+@media (max-width: 1440px) {
+  .file-name {
+    font-size: 8px;
+  }
+
+  .file-name svg {
+    width: 6px;
+    height: 6px;
+  }
+
+  .file-item {
+    padding: 5px;
+  }
+
+  .file-item.folder {
+    padding-left: 10px;
+  }
+
+  .sub-items {
+    margin-left: 10px;
+  }
+
+  .sub-items .file-item {
+    padding: 5px;
+  }
+
+  .code-line {
+    font-size: 10px;
+  }
+
+  .console-line {
+    font-size: 10px;
+  }
+
+}
+
+@media (max-width: 1024px) {
+  .file-name {
+    font-size: 6px;
+  }
+
+  .file-name svg {
+    width: 4px;
+    height: 4px;
+  }
+
+  .file-item {
+    padding: 3px;
+  }
+
+  .file-item.folder {
+    padding-left: 8px;
+  }
+
+  .sub-items {
+    margin-left: 8px;
+  }
+
+  .sub-items .file-item {
+    padding: 3px;
+  }
+
+  .code-line {
+    font-size: 8px;
+  }
+
+  .console-line {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 768px) {
+  .Loading-right {
+    display: none;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  .Loading-right {
+    flex-basis: 100%;
+    height: 100vh;
+  }
+
+  .code-area {
+    height: 70%;
+  }
+
+  .consoles {
+    height: 100%;
+  }
+
+  .console{
+    flex-basis: 40%;
+    font-size: 8px;
+    max-width: 40%;
+  }
+  .console2 {
+    flex-basis: 40%;
+    font-size: 8px;
+    max-width: 40%;
+  }
+
+  .console .low-width-content::before {
+    content: "PS C:\\Users\\Berkay\\Dev\\ Primary\\Portfolio\\api";
+  }
+
+  .console-line {
+    font-size: 8px;
+  }
+
+  .console-selec-area {
+    flex-basis: 20%;
+    max-width: 20%;
+  }
+
+  .terminal-text {
+    font-size: 12px;
+  }
+
+  .terminal-text svg {
+    width: 12px;
+    height: 12px;
+  }
+}
+
+@media (max-width: 425px) {
+  .console,
+  .console2 {
+    font-size: 6px;
+  }
+
+  .console-line {
+    font-size: 6px;
+  }
+
+  .console .low-width-content::before {
+    content: "PS C:\\Users\\Berkay\\ Dev\\Primary\\ Portfolio\\api";
+  }
+}

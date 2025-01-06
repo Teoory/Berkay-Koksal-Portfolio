@@ -1,0 +1,131 @@
+.brandArea {
+  display:flex;
+  align-items:center;
+}
+
+.wrapperArea {
+  width: 100%
+}
+
+.wrapperArea h2,
+.wrapperArea p {
+  text-align:center;
+  color:#fff;
+}
+
+.wrapperArea p a {
+  color: lightgreen;
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 90%;
+  max-width: 1536px;
+  margin-inline: auto;
+  position: relative;
+  height: 100px;
+  margin-top: 2rem;
+  overflow: hidden;
+  mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 1) 20%,
+    rgba(0, 0, 0, 1) 80%,
+    rgba(0, 0, 0, 0)
+  );
+}
+
+@keyframes scrollLeft {
+  to {
+    left: -200px;
+  }
+}
+@keyframes scrollRight {
+  to {
+    right: -200px;
+  }
+}
+
+.wrapperItem {
+  width: 200px;
+  height: 100px;
+  background-color: red;
+  border-radius: 6px;
+  position: absolute;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.wrapperItem img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  aspect-ratio: 16/9;
+  background-color: none;
+}
+
+.wrapperLeft {
+  left: max(calc(200px * 8), 100%);
+  animation-name: scrollLeft;
+}
+
+.wrapperRight {
+  right: max(calc(200px * 8), calc(100% + 200px));
+  animation-name: scrollRight;
+}
+
+.item1 {
+  animation-delay: calc(30s / 8 * (8 - 1) * -1);
+}
+
+.item2 {
+  animation-delay: calc(30s / 8 * (8 - 2) * -1);
+}
+
+.item3 {
+  animation-delay: calc(30s / 8 * (8 - 3) * -1);
+}
+
+.item4 {
+  animation-delay: calc(30s / 8 * (8 - 4) * -1);
+}
+
+.item5 {
+  animation-delay: calc(30s / 8 * (8 - 5) * -1);
+}
+
+.item6 {
+  animation-delay: calc(30s / 8 * (8 - 6) * -1);
+}
+
+.item7 {
+  animation-delay: calc(30s / 8 * (8 - 7) * -1);
+}
+
+.item8 {
+  animation-delay: calc(30s / 8 * (8 - 8) * -1);
+}
+
+.brandBox {
+  width: 800px;
+  height: 400px;
+  background-color: #f81625;
+  border-radius: 6px;
+  margin-top:2rem;
+  margin-left:5rem;
+}
+
+.branditem {
+  height:100%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.branditem h2 {
+  color:#fff;
+  text-transform:uppercase;
+  font-weight:900;
+  font-family: "Bebas Neue", system-ui;
+}
