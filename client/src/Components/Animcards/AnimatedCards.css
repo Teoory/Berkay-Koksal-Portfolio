@@ -534,10 +534,11 @@ body {
   .cards-section {
     flex-direction: column;
     gap: 1rem;
+    padding: 0;
   }
 
   .info-card {
-    width: 75vw;
+    width: 80%;
   }
 
   .contact-title {

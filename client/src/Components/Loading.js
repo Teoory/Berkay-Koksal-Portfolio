@@ -42,6 +42,7 @@ const Loading = ({ onComplete }) => {
   ];
 
   const fakeCode = [
+    "// Daha iyi bir deneyim için bilgisayarınız ile görüntüleyiniz!",
     "import React from 'react';",
     "import Loading from './Components/Loading';",
     " ",
@@ -61,6 +62,8 @@ const Loading = ({ onComplete }) => {
     "};",
     " ",
     "export default Home;",
+    " ",
+    "// Daha iyi bir deneyim için bilgisayarınız ile görüntüleyiniz!",
   ];
 
   const successTerminal = [
@@ -125,7 +128,7 @@ const Loading = ({ onComplete }) => {
       const timer = setTimeout(() => {
         // Loading ekranını geçmek için
         if (onComplete) onComplete();
-      }, 5000);
+      }, 3000);
 
       return () => clearTimeout(timer);      
     }

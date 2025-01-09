@@ -18,7 +18,7 @@ function App() {
         <Loading onComplete={handleLoadingComplete} />
         ) : ( 
         <div className="App" style={{marginTop:'60px',overflow:'hidden'}}>
-          {/* <SnowEffect /> */}
+          <SnowEffect />
           <AppRouter />
         </div>
        )}
