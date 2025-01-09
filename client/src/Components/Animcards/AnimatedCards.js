@@ -7,14 +7,13 @@ const AnimatedCards = () => {
   const [showCards, setShowCards] = useState(false);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const [isAnimating, setIsAnimating] = useState(false);
-  const [githubData, setGithubData] = useState(null);
   const [languageStats, setLanguageStats] = useState({});
   const [loading, setLoading] = useState(true);
   const [showProjects, setShowProjects] = useState(false);
   const [showProjects2, setShowProjects2] = useState(false);
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
-  const GITHUB_TOKEN = process.env.REACT_APP_GITHUB_TOKEN;
+  const GITHUB_TOKEN = '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';
 
   const handleMouseMove = (e) => {
     const bounds = 40;
@@ -45,7 +44,7 @@ const AnimatedCards = () => {
   }, []);
 
   const handleScroll = (e) => {
-    e.preventDefault();
+    // e.preventDefault();
     
     if (isAnimating) return;
     
@@ -211,6 +210,18 @@ const AnimatedCards = () => {
 
   return (
     <div className="cards-container">
+      <div className="scroll-buttons">
+        <button onClick={() => handleScroll({ deltaY: -1 })} className="scroll-button up">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <polyline points="18 15 12 9 6 15"></polyline>
+          </svg>
+        </button>
+        <button onClick={() => handleScroll({ deltaY: 1 })} className="scroll-button down">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </button>
+      </div>
       <SnowEffect />
       <div className={`header-section ${scrolled ? 'moved' : ''}`}>
         <div className="logo-area">
@@ -263,6 +274,9 @@ const AnimatedCards = () => {
             />
           </div>
           
+          {(languageStats !== null || languageStats !== 0) && !loading && (
+            <h3 style={{color:'#f9f9f9',textDecoration:'underline',textAlign:'center'}}>Alttaki veriler Public Repolarımdan alınmıştır!</h3>
+          )}
           <div className="github-stats">
             {Object.entries(languageStats)
               .sort(([, a], [, b]) => b - a)

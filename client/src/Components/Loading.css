@@ -90,7 +90,7 @@
 }
 
 .code-line {
-  font-size: 14px;
+  font-size: 24px;
   margin: 0;
   white-space: pre-wrap;
   color: #dcdcaa;
@@ -252,8 +252,9 @@
   }
 }
 
-@media (max-width: 768px) {
-  .Loading-right {
+/* @media (max-width: 768px) { */
+@media (max-width: 1080px) {
+  .Loading-left {
     display: none;
   }
 
@@ -267,16 +268,17 @@
   }
 
   .code-area {
-    height: 70%;
+    height: 50%;
   }
 
   .consoles {
     height: 100%;
+    flex-basis: 50%;
   }
 
   .console{
     flex-basis: 40%;
-    font-size: 8px;
+    font-size: 32px;
     max-width: 40%;
   }
   .console2 {
@@ -290,7 +292,7 @@
   }
 
   .console-line {
-    font-size: 8px;
+    font-size: 32px;
   }
 
   .console-selec-area {
@@ -299,12 +301,37 @@
   }
 
   .terminal-text {
-    font-size: 12px;
+    font-size: 32px;
   }
 
   .terminal-text svg {
-    width: 12px;
-    height: 12px;
+    width: 32px;
+    height: 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .console,
+  .console2 {
+    font-size: 24px;
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+
+  .code-line {
+    font-size: 24px;
+  }
+
+  .console-line {
+    font-size: 24px;
+  }
+
+  .console-selec-area {
+    display: none;
+  }
+
+  .console .low-width-content::before {
+    content: "PS C:\\Users\\Berkay\\Dev\\Primary\\Portfolio\\api";
   }
 }
 
