@@ -13,13 +13,13 @@ function App() {
   };
   return (
     <div>
-       {/* {isLoading ? (
+       {isLoading ? (
         <Loading onComplete={handleLoadingComplete} />
-        ) : (  */}
+        ) : ( 
         <div className="App" style={{marginTop:'60px',overflow:'hidden'}}>
           <AppRouter />
         </div>
-       {/* )} */}
+       )}
     </div>
   );
 }
