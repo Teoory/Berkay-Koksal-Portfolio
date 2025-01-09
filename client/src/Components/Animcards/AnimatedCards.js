@@ -274,7 +274,7 @@ const AnimatedCards = () => {
           </div>
           
           {(languageStats !== null || languageStats !== 0) && !loading && (
-            <h3 style={{color:'#f9f9f9',textDecoration:'underline',textAlign:'center'}}>Alttaki veriler Public Repolarımdan alınmıştır!</h3>
+            <h3 className="github-stats-header" style={{color:'#f9f9f9',textDecoration:'underline',textAlign:'center'}}>Alttaki veriler Public Repolarımdan alınmıştır!</h3>
           )}
           <div className="github-stats">
             {Object.entries(languageStats)
@@ -286,8 +286,7 @@ const AnimatedCards = () => {
                     {languageIcons[language] && (
                       <img 
                         src={languageIcons[language]} 
-                        alt={language} 
-                        style={{ width: '20px', marginRight: '8px' }}
+                        alt={language}
                       />
                     )}
                     {language}
@@ -341,24 +340,26 @@ const AnimatedCards = () => {
         <div className={`info-card ${showCards ? 'visible' : ''}`} id="right-card">
           <h3 className="contact-title">İletişim</h3>
           <p>Alttaki kanallar üzerinden benimle iletişime geçebilirsiniz.</p>
-          <p>
-            <a href="https://www.linkedin.com/in/berkay-koksal/" target="_blank" rel="noopener noreferrer">
-              <img src="https://www.linkedin.com/favicon.ico" alt="Linkedin" />
-              Linkedin
-            </a>
-          </p>
-          <p>
-            <a href="mailto:kkslsb.info@gmail.com">
-              <img src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico" alt="Gmail" />
-              Kkslsb.info@gmail.com
-            </a>
-          </p>
-          <p>
-            <a href="https://wa.me/+905079073856">
-              <img src="https://static.whatsapp.net/rsrc.php/v4/yz/r/ujTY9i_Jhs1.png" alt="Whatsapp" />
-              Whatsapp
-            </a>
-          </p>
+          <div className="contact">
+            <p>
+              <a href="https://www.linkedin.com/in/berkay-koksal/" target="_blank" rel="noopener noreferrer">
+                <img src="https://www.linkedin.com/favicon.ico" alt="Linkedin" />
+                Linkedin
+              </a>
+            </p>
+            <p>
+              <a href="mailto:kkslsb.info@gmail.com">
+                <img src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico" alt="Gmail" />
+                Kkslsb.info@gmail.com
+              </a>
+            </p>
+            <p>
+              <a href="https://wa.me/+905079073856">
+                <img src="https://static.whatsapp.net/rsrc.php/v4/yz/r/ujTY9i_Jhs1.png" alt="Whatsapp" />
+                Whatsapp
+              </a>
+            </p>
+          </div>
         </div>
       </div>
 
