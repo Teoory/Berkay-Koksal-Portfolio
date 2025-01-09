@@ -5,10 +5,7 @@ import Brand from '../Components/Brand/Brand'
 
 const Home = () => {
   return (
-    <div>
       <AnimatedCards />
-      {/* <Brand /> */}
-    </div>
   )
 }
 

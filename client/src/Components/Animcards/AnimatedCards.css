@@ -158,8 +158,6 @@ body {
 
 .cards-section {
   position: fixed;
-  bottom: -100%;
-  left: 0;
   width: 100%;
   height: 100vh;
   display: flex;
@@ -172,16 +170,6 @@ body {
   opacity: 0;
 }
 
-.visible {
-  transform: translateY(-100%);
-  opacity: 1;
-}
-
-.moved {
-    opacity: 0;
-    pointer-events: none;
-    transition: all 2s ease-in-out;
-}
 
 .info-card {
   width: 400px;
@@ -191,14 +179,10 @@ body {
   padding: 20px;
   color: white;
   opacity: 0;
-  transform: translateY(20px);
+  transform: translateY(0px);
   transition: all 0.5s ease-in-out;
 }
 
-.info-card.visible {
-  opacity: 1;
-  transform: translateY(0);
-}
 
 #left-card {
   background-color: #2563eb;
@@ -400,21 +384,15 @@ body {
   }
 }
 
-.projects-section {
+.projects-section,
+.projects-section-2 {
   position: fixed;
-  bottom: -150%;
-  left: 0;
   width: 100%;
   height: 100vh;
   background-color: #0307128f;
   transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
-  opacity: 0;
   overflow: hidden;
-}
-
-.projects-section.visible {
-  transform: translateY(-150%);
-  opacity: 1;
+  opacity: 0;
 }
 
 .other-projects-text {
@@ -422,7 +400,8 @@ body {
   color: white;
   font-size: 1.5rem;
   text-align: center;
-  margin-bottom: 2rem;
+  margin: 0;
+  padding: 0;
 }
 
 .timeline-container {
@@ -449,12 +428,7 @@ body {
 .timeline-item {
   position: absolute;
   width: 500px;
-  opacity: 0;
   transition: all 0.5s ease-out;
-}
-
-.projects-section.visible .timeline-item {
-  opacity: 1;
 }
 
 .timeline-item:nth-child(2) {
@@ -519,6 +493,22 @@ body {
 
 .project-info a:hover {
   color: #93c5fd;
+}
+
+
+.visible {
+  top: 0;
+  left: 0;
+  opacity: 1;
+  transition: all 0.5s ease-in-out;
+  pointer-events: all;
+}
+
+.moved {
+  transform: translateY(0);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 2s ease-in-out;
 }
 
 @media (max-width: 1400px) {
@@ -605,7 +595,8 @@ body {
 
   .other-projects-text {
     font-size: 1.2rem;
-    margin: 1rem 0;
+    margin: 0;
+    padding: 0;
   }
 }
 
@@ -677,7 +668,8 @@ body {
 
   .other-projects-text {
     font-size: 1rem;
-    padding: 0 1rem;
+    margin: 0;
+    padding: 0;
   }
 
   .circle {
@@ -697,7 +689,8 @@ body {
   }
 
   .other-projects-text {
-    margin: 0.5rem 0;
+    margin: 0;
+    padding: 0;
   }
 
   .project-image {
@@ -713,37 +706,4 @@ body {
   .project-image {
     height: 180px;
   }
-}
-
-.projects-section-2 {
-  position: fixed;
-  bottom: -150%;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  background-color: #0307128f;
-  transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
-  opacity: 0;
-  overflow: hidden;
-}
-
-.projects-section-2.visible {
-  transform: translateY(-150%);
-  opacity: 1;
-}
-
-.projects-section-2 .timeline-item {
-  opacity: 0;
-  transition: opacity 0.5s ease-out 0.3s;
-}
-
-.projects-section-2.visible .timeline-item {
-  opacity: 1;
-}
-
-.projects-section.moved {
-  transform: translateY(-250%);
-  opacity: 0;
-  pointer-events: none;
-  transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
 }

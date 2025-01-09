@@ -222,7 +222,6 @@ const AnimatedCards = () => {
           </svg>
         </button>
       </div>
-      <SnowEffect />
       <div className={`header-section ${scrolled ? 'moved' : ''}`}>
         <div className="logo-area">
           <div 
