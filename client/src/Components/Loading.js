@@ -102,7 +102,7 @@ const Loading = ({ onComplete }) => {
 
           setTimeout(() => {
             setStep(1);
-          }, 2000);
+          }, 1000);
         }
       }, 100);
 
