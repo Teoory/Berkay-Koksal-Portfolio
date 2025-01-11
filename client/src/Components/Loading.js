@@ -43,6 +43,7 @@ const Loading = ({ onComplete }) => {
 
   const fakeCode = [
     "// Daha iyi bir deneyim için bilgisayarınız ile görüntüleyiniz!",
+    " ",
     "import React from 'react';",
     "import Loading from './Components/Loading';",
     " ",
