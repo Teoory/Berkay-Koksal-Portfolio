@@ -102,7 +102,7 @@ const Loading = ({ onComplete }) => {
 
           setTimeout(() => {
             setStep(1);
-          }, 3000);
+          }, 2000);
         }
       }, 100);
 
@@ -128,7 +128,7 @@ const Loading = ({ onComplete }) => {
       const timer = setTimeout(() => {
         // Loading ekranını geçmek için
         if (onComplete) onComplete();
-      }, 3000);
+      }, 2000);
 
       return () => clearTimeout(timer);      
     }
