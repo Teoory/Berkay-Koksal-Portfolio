@@ -316,6 +316,9 @@ const AnimatedCards = () => {
                 const total = Object.values(languageStats).reduce((acc, curr) => acc + curr, 0);
                 if (total >= 1000000) {
                   return `${(total / 1000000).toFixed(1)}M+`;
+                } else if 
+                  (total >= 1000) {
+                  return `${(total / 1000).toFixed(1)}K+`;
                 }
                 return `${total.toLocaleString()} satır`;
               })()}
