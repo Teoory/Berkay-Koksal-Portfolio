@@ -13,7 +13,7 @@ const AnimatedCards = () => {
   const [showProjects2, setShowProjects2] = useState(false);
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
-  const GITHUB_TOKEN = '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';
+  const GITHUB_TOKEN = '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';
 
   const handleMouseMove = (e) => {
     const bounds = 40;
